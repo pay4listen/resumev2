@@ -1,0 +1,254 @@
+.lock-page>.content, .login-page>.content {
+    padding-top: 25vh;
+}
+
+.wrapper.wrapper-full-page {
+    overflow: hidden;
+}
+
+.sidebar .sidebar-wrapper {
+    overflow: inherit;
+}
+
+.main-panel .main-content {
+    margin-top: 0px;
+}
+
+.navbar .navbar-nav>li>a {
+    font-size: 20px;
+}
+
+.navbar .navbar-nav>li>a .fa {
+    font-size: 25px;
+}
+
+.form-group label.control-label {
+    color: #2e2e2e;
+    font-size: 18px;
+}
+
+.progress {
+    height: 14px;
+}
+
+.progress .progress-bar {
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.job-title-1, .job-title-2 {
+    position:  absolute;
+    top: 23vh;
+    font-weight: 800;
+    color: white;
+    font-size: 6vw;
+}
+
+.job-title-1 {
+    left: 14vw;
+}
+
+.job-title-2 {
+    right: 14vw;
+}
+
+.job-title-3 {
+    position: relative;
+    top: -6vh;
+    font-weight: 600;
+    color: white;
+    display: none;
+}
+
+.stack-wrapper {
+}
+
+.stack-wrapper img {
+    max-height: 200px;
+    max-width: 200px;
+    position: absolute;
+    top: 70%;
+}
+
+img.basic-3 {
+    right: 83%;
+    top: 68%;
+}
+
+img.sass-icon {
+    right: 85%;
+    width: 127px;
+    top: 83%;
+}
+
+img.angular-icon {
+    right: 63%;
+}
+
+img.vue-icon {
+    top: 70%;
+    right: 61%;
+    width: 110px;
+}
+
+img.react-icon {
+    right: 69%;
+    top: 66%;
+}
+
+img.java-icon {
+    right: 50%;
+    width: 150px;
+}
+
+img.hibernate-icon {
+    right: 43%;
+    top: 78%;
+    width: 160px;
+}
+
+img.c-icon {
+    right: 31%;
+    width: 158px;
+}
+
+img.github-icon {
+    right: 0;
+}
+
+img.bitbucket-icon {
+    right: 12%;
+    height: 125px;
+    width: 125px;
+}
+
+img.jira-icon {
+    right: 19%;
+    top: 80%;
+}
+
+@media (max-width: 992px) {
+
+    .lock-page>.content, .login-page>.content {
+        padding-top: 16vh;
+    }
+
+    .main-panel .main-content {
+        margin-top: 50px;
+    }
+
+    .navbar-brand {
+        display: block;
+    }
+
+    .job-title-1, .job-title-2 {
+        display: none;
+    }
+
+    .job-title-3 {
+        display: block;
+    }
+
+    .stack-wrapper img {
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+    img.basic-3 {
+        right: 72%;
+        top: 64%;
+    }
+
+    img.sass-icon {
+        right: 71%;
+        width: 127px;
+        top: 70%;
+    }
+
+    img.angular-icon {
+        right: 44%;
+        top: 81%;
+    }
+
+    img.vue-icon {
+        top: 78%;
+        right: 39%;
+        width: 78px;
+    }
+
+    img.react-icon {
+        right: 52%;
+        top: 78%;
+    }
+
+    img.java-icon {
+        right: 33%;
+        top: 59%;
+        width: 150px;
+    }
+
+    img.hibernate-icon {
+        right: 24%;
+        top: 64%;
+        width: 83px;
+    }
+
+    img.c-icon {
+        right: 0%;
+        width: 90px;
+        top: 63%;
+    }
+
+    img.github-icon {
+        right: 0;
+        top: 76%;
+    }
+
+    img.bitbucket-icon {
+        right: 4%;
+        top: 88%;
+        height: 90px;
+        width: 90px;
+    }
+
+    img.jira-icon {
+        right: 19%;
+        top: 80%;
+        width: 80px;
+    }
+}
+
+.tooltipX {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltipX .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: #00bcd4;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltipX:hover .tooltiptext {
+    visibility: visible;
+}
+
+.hobby-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobby-container i {
+    font-size: 50px;
+}
